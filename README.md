@@ -1,15 +1,21 @@
 # Classification_Project_of_Sports_Celebrities
 
 ## Description : 
-This project deals with classification of Sports Celebrities containing 5 classes(celebrities) based on the image.
+* This project deals with classification of Sports Celebrities containing 5 image classes(celebrities).
 
-I was able to achieve a accuracy of 78% with just 126 images.
+* The dataset contains the following image classes -> Ms Dhoni, Roger Federer, Ronaldo, Lionel Messi, Virat Kohli.
 
-I have created my own dataset by using chrome extension for bulk downloading of images.
+* This dataset has been developed by using chrome extension for bulk downloading of images.
 
-I have used NumPy and OpenCv haarcascades for data cleaning and data preprocessing.Then,I have done Wavelet Transformations for the images and vertically stacked both the cropped and the wavelet transformed image into a image directory.
+* NumPy and OpenCv haarcascades has been used for data cleaning and data preprocessing.
 
-Later,For Model training i have used Scikit Learn and GridSearchCV has been used for predicting the best set of parameters for the model and have checked for SVM,Logistic regression,and Random Forest.
+* Wavelet Transformation for the images has been performed and then vertically stacking both the cropped and the wavelet transformed image into a new image directory has been done.
+
+* For Model training Scikit Learn has been used. GridSearchCV has been used for predicting the best set of parameters for the model.
+
+* The following ML models SVM,Logistic regression,and Random Forest have been used.
+
+* After Model Evaluation, an accuracy of 78% with just 126 images has been achieved.
 
 ## Libraries Used : 
 i>Numpy
