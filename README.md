@@ -1,31 +1,25 @@
 # Classification_Project_of_Sports_Celebrities
 
-## Description : 
-* This project deals with classification of Sports Celebrities containing 5 image classes(celebrities).
+## Hey there, sports fans! ⚽🎾🏏
+Welcome to our super cool project, the Sports Celebrity Classification Project. This is where we're using the magic of machine learning to classify images of your favorite sports celebrities.
 
-* The dataset contains the following image classes -> Ms Dhoni, Roger Federer, Ronaldo, Lionel Messi, Virat Kohli.
+## What's it all about? 🤔
+We've got a dataset that's packed with images of five sports celebrities - Ms Dhoni, Roger Federer, Ronaldo, Lionel Messi, and Virat Kohli. We've used a chrome extension to bulk download these images, because who has time to download images one by one, right?
 
-* This dataset has been developed by using chrome extension for bulk downloading of images.
+## How does it work? 🛠️
+We've used NumPy and OpenCV haarcascades for data cleaning and preprocessing. We've also performed a wavelet transformation on the images and then stacked both the cropped and the wavelet transformed image into a new image directory. Sounds cool, huh?
 
-* NumPy and OpenCv haarcascades has been used for data cleaning and data preprocessing.
+For the model training, we've used Scikit Learn. We've also used GridSearchCV to predict the best set of parameters for the model. We've tried out a few ML models - SVM, Logistic Regression, and Random Forest.
 
-* Wavelet Transformation for the images has been performed and then vertically stacking both the cropped and the wavelet transformed image into a new image directory has been done.
+## And the results? 📊
+We've managed to achieve an accuracy of 78% with just 126 images. Not too shabby, right?
 
-* For Model training Scikit Learn has been used. GridSearchCV has been used for predicting the best set of parameters for the model.
+## Libraries we've used 📚
+- Numpy
+- OpenCV
+- Shutil
+- Pywavelet
+- Joblib
+- Json
 
-* The following ML models SVM,Logistic regression,and Random Forest have been used.
-
-* After Model Evaluation, an accuracy of 78% with just 126 images has been achieved.
-
-## Libraries Used : 
-i>Numpy
-
-ii>OpenCV
-
-iii>Shutil
-
-iv>Pywavelet
-
-v>Joblib
-
-vi>Json
+So, that's about it! Feel free to explore the project and let us know what you think. Happy coding! 🚀
